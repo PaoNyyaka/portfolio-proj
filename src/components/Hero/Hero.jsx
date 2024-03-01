@@ -10,7 +10,7 @@ export default function Hero() {
                 Hi, i`m Andrew
             </h1>
             <p className={styles.description}>
-                I`m a frontedn developer with 3 yearts of experience using JavaScript/TypeScrypt, React and NodeJS.
+                I`m a frontend developer with 3 years of experience using JavaScript/TypeScrypt, React and NodeJS.
                 Reach out if you`d like to learn more!
             </p>
             <a href="mailtp:myemail@email.com" className={styles.contactBtn}>Contact Me</a>
