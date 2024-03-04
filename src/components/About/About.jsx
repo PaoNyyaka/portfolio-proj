@@ -4,7 +4,7 @@ import { getImageUrl } from '../../utils';
 
 export default function  About() {
     return ( 
-    <section className={styles.container} id='about'> {/* интересный момент, мы связали эту секцию с в nav секцией About, т.к. тут указали ид, а там ссылка <a href="#about"> */}
+    <section className={styles.container} id='about'> {/* интересный момент, мы связали эту секцию с nav секцией About, т.к. тут указали ид, а там ссылка <a href="#about"> */}
         <h2 className={styles.title}>
             About
         </h2>
