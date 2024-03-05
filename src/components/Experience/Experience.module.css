@@ -54,6 +54,9 @@
     font-size: 25px;
     font-family: var(--font-roboto);
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .history {
     width: 45%;

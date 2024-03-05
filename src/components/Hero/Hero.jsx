@@ -7,13 +7,13 @@ export default function Hero() {
     <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>
-                Hi, i`m Andrew
+                Hi, i'm Andrew
             </h1>
             <p className={styles.description}>
-                I`m a frontend developer with 3 years of experience using JavaScript/TypeScrypt, React and NodeJS.
-                Reach out if you`d like to learn more!
+                I'm a frontend developer with 3 years of experience using JavaScript/TypeScrypt, React.
+                Reach out if you'd like to learn more!
             </p>
-            <a href="mailtp:myemail@email.com" className={styles.contactBtn}>Contact Me</a>
+            <a href="https://github.com/PaoNyyaka" className={styles.contactBtn}>Contact Me / затычка, почта</a>
         </div>
         <img src={getImageUrl('hero/heroImage.png')} alt=" Hero image of me" className={styles.heroImg} />
         <div className={styles.topBlur} />

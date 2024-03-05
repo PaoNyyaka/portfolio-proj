@@ -108,3 +108,9 @@
         align-items: center;
     }
 }
+
+@media screen and (min-width: 2500px) {
+    .heroImg {
+        width: 30%;
+    }
+}

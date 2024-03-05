@@ -23,7 +23,7 @@ export default function  About() {
                     <div className={styles.aboutItemText}>
                         <h3>Frondtend Developer</h3>
                         <p>
-                            i`m a frontend developer with experience in building resposive and optimizet sites
+                        i'm a frontend developer with experience in building responsive and optimized sites
                         </p>
                     </div>
                 </li>
@@ -33,9 +33,9 @@ export default function  About() {
                     alt="server icon" 
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Backend Developer</h3>
+                        <h3>Затычка/React?Ts?</h3>
                         <p>
-                            i`m a frontend developer with experience in building resposive and optimizet sites
+                            затыка
                         </p>
                     </div>
                 </li>
@@ -45,9 +45,9 @@ export default function  About() {
                     alt="ui icon" 
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Frondtend Developer</h3>
+                        <h3>Figma\Photoshop?</h3>
                         <p>
-                            i`m a frontend developer with experience in building resposive and optimizet sites
+                            затычка
                         </p>
                     </div>
                 </li>
