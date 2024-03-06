@@ -10,16 +10,17 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
+      window.addEventListener('load', () => {
+        setTimeout(() => {
           const hash = window.location.hash;
           if (hash) {
-              const element = document.querySelector(hash);
-              if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' });
-              }
+            const element = document.querySelector(hash);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+            }
           }
+        }, 500); // задержка в 500 миллисекунд (можете изменить значение)
       });
-      </script>
+    </script>
   </body>
-
 </html>
