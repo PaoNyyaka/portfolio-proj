@@ -4,7 +4,7 @@
     color: var(--color-text);
     margin-top: 79px;
     margin-left: 10%;
-    margin-rigth: 10%;
+    margin-right: 10%;
 }
 
 .title {
@@ -30,11 +30,13 @@
 }
 
 .skill {
-    disolay: flex;
-    fles-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 11px;
 }
+
+
 
 .skillImageContainer {
     background-color: var(--color-secondary);
@@ -46,9 +48,16 @@
     height: 120px;
 }
 
+.skill img:hover {
+    transition: 2s;
+    width: 500px;
+}
 .skillImageContainer img {
     width: 75px;
+
 }
+
+
 
 .skill p {
     font-size: 25px;
@@ -111,7 +120,7 @@
 
     .skills {
         width: 100%;
-        flex-directipn: row;
+        flex-direction: row;
         justify-content: center;
     }
 
