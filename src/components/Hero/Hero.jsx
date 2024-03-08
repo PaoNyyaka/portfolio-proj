@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Hero.module.css'
 import { getImageUrl } from '../../utils';
+import { handleEmailClick } from './MailBtn'
 
 export default function Hero() {
     return (
@@ -13,7 +14,7 @@ export default function Hero() {
                 I'm a frontend developer with 3 years of experience using JavaScript/TypeScrypt, React.
                 Reach out if you'd like to learn more!
             </p>
-            <a href="https://github.com/PaoNyyaka" className={styles.contactBtn}>Contact Me / затычка, почта</a>
+             <a href="#" className={styles.contactBtn} onClick={handleEmailClick}>Contact Me</a>
         </div>
         <img src={getImageUrl('hero/heroImage.png')} alt=" Hero image of me" className={styles.heroImg} />
         <div className={styles.topBlur} />

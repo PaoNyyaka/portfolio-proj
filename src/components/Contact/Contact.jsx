@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Contact.module.css'
 import { getImageUrl } from '../../utils'
+import { handleEmailClick } from '../Hero/MailBtn';
 
 export const Contact = () => {
     return (
@@ -12,11 +13,11 @@ export const Contact = () => {
             <ul className={styles.links}>
                 <li className={styles.link}>
                     <img src={getImageUrl('contact/emailIcon.png')} alt="Email icon" />
-                    <a href="mailto: myemail@email.com">meemail@email.com</a>
+                    <a href="mailto: myemail@email.com" onClick={handleEmailClick}>paonyao5@gmail.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl('contact/linkedinIcon.png')} alt="Linked icon" />
-                    <a href="https://www.linkedin.com/myname">https://www.linkedin.com/myname</a>
+                    <img className={styles.telegram} src={getImageUrl('contact/telegramIcon.png')} alt="Telegram icon" />
+                    <a href="https://t.me/PaoNyyaka">https://t.me/PaoNyyaka</a>
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl('contact/githubIcon.png')} alt="Github icon" />
