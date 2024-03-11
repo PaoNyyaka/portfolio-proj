@@ -35,40 +35,99 @@
     width: 100%;
 }
 
+.btnSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    width: 220px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.btnRight button,
+.btnLeft button {
+    background-color: #111;
+    color: #f2f2f2;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 60px;
+    width: 210px;
+    border-radius: 50px;
+}
 
 
-.btnSmallContainer{
+.btnSpan span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Чтобы span был "под" кнопкой */
+    filter: blur(0); /* Исходное значение для размытия */
+}
+
+.btnSpan:hover {
+    animation: rotate 2s linear infinite;
+}
+.btnSpan:hover > span:nth-child(1) {
+    filter: blur(7px); /* Размытие для первого span */
+}
+
+.btnSpan:hover > span:nth-child(2) {
+    filter: blur(14px); /* Размытие для второго span */
+}
+
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.mainContainerBtn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
 }
 
-.btnLeft,
-.btnLeft_small,
-.btnRight,
-.btnRight_small {
-    width: 64px;
-    height: 64px;
-
+.btnRight button:disabled {
+    color: #219e10; 
+    background-color: #0f0606; 
+    cursor: not-allowed; 
+    
 }
 
-.btnLeftArrow,
-.btnRightArrow {
-    width:64px;
-    height: 66px;
-    border: 1px solid black;
-    background-color: var(--color-bg)
+.btnLeft button:disabled {
+    color: #219e10; 
+    background-color: #0f0606; 
+    cursor: not-allowed; 
 }
 
-@media screen and (min-width: 1567px) {
-    .btnSmallContainer {
+@media screen and (min-width: 1946px) {
+    .mainScreenBtn {
+        display: none;
+    }
+    .mainContainerBtn {
         display: none;
     }
 }
 
-@media screen and (max-width: 1566px) {
-    .btnLeft,
-    .btnRight {
+
+@media screen and (max-width: 1946px) {
+    .btnHide {
         display: none;
     }
+
 }
