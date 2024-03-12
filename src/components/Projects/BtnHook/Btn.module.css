@@ -2,10 +2,11 @@
     display: flex;
     /* animation: buttonClick 0.3s ease; */
     transition: transform 1s;
+
 }
 
 button:active {
-    transform: scale(2.5);
+    transform: scale(1.5);
 }
 
 .btnContainer {
@@ -32,7 +33,7 @@ button:active {
     color: #f2f2f2;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
