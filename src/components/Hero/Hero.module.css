@@ -56,7 +56,7 @@
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    /* animation-timing-function: ease-in-out; */
 }
 
 @keyframes floating {
