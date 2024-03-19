@@ -6,7 +6,8 @@
 }
 
 button:active {
-    transform: scale(1.5);
+    transform: scale(1.6);
+    
 }
 
 .btnContainer {
@@ -19,9 +20,9 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-    width: 220px;
-    height: 70px;
+    background: linear-gradient(#14ffe7b9, #ffeb3bb2, #ff00e1bb);
+    width: 190px;
+    height: 60px;
     border-radius: 50px;
     position: relative; 
     overflow: hidden;
@@ -29,7 +30,7 @@ button:active {
 
 .btnRight button,
 .btnLeft button {
-    background-color: #111;
+    background-color: #0000009d;
     color: #f2f2f2;
     outline: none;
     border: none;
@@ -37,8 +38,8 @@ button:active {
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
-    height: 60px;
-    width: 210px;
+    height: 50px;
+    width: 180px;
     border-radius: 50px;
 }
 
@@ -89,7 +90,7 @@ button:active {
 
 .btnRight button:disabled {
     color: #219e10; 
-    background-color: #0f0606; 
+    background-color: #000000; 
     cursor: not-allowed; 
     transform:none;
     
@@ -97,7 +98,7 @@ button:active {
 
 .btnLeft button:disabled {
     color: #219e10; 
-    background-color: #0f0606; 
+    background-color: #000000; 
     cursor: not-allowed; 
     transform:none;
 }

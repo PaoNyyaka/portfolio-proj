@@ -1,29 +1,33 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
+      "role": "Leveling up and freelancing",
+      "organisation": "Freelance",
+      "startDate": "Dec, 2022",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "experiences": ["Study and improve my understanding of new technologies"],
+      "imageSrc": "history/freelancer.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
+      "role": "Self-study",
+      "organisation": "leasn.js, Eloquent JavaScript, Type Script Documentation and etc..",
+      "startDate": "Sept, 2022",
+      "endDate": "Dec, 2023",
+      "experiences": ["Closed all the holes after the course", "I studied the Type Script", "I studied React library", "Webpack and Vite", "Figma"],
+      "imageSrc": "history/book.png"
+    },
+    {
+      "role": "Student",
+      "organisation": "Netology",
       "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "endDate": "Sept, 2022",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "Basic programming principles",
+        "Adaptive layout of layouts",
+        "Basic principles of OOP",
+        "Java Script",
+        "How to use the state and layout according to the layout",
+        "Photoshop"
       ],
-      "imageSrc": "history/netflix.png"
+      "imageSrc": "history/netology.png"
     }
   ]

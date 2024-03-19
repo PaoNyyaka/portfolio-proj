@@ -1,5 +1,4 @@
 @import '../../vars.css';
-
 .container {
     color: var(--color-text);
     margin-top: 120px;
@@ -10,6 +9,9 @@
     width: 100vw;
     padding: 58px 10%;
     gap: 10px;
+    /* background-image: url(../../../assets/contact/contactGif.gif);
+    background-size: 100% 350px;
+    background-repeat: no-repeat; */
 }
 
 .text h2 {
@@ -36,6 +38,13 @@
     display: flex;
     align-items: center;
     gap: 25px;
+}
+
+.link:hover {
+    background-image: linear-gradient(to right, #0b5e69, #185518); /* Градиент от красного до зеленого с горизонтальной ориентацией */
+    background-size: 200% 100%;  /* Расширяем градиенты на в два раза шире блока */
+    transition: background-position 0.4s; 
+    background-position: -100% 0;
 }
 
 .link a {

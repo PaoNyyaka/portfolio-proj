@@ -10,8 +10,8 @@ export default function  About() {
         </h2>
         <div className={styles.content}>
             <img 
-            src={getImageUrl('about/aboutImage.png')} 
-            alt="Me sitting with a laptop" 
+            src={getImageUrl('about/about_gif.gif')} 
+            alt="gif of about" 
             className={styles.aboutImage}
             />
             <ul className={styles.aboutItems}>
@@ -33,9 +33,10 @@ export default function  About() {
                     alt="server icon" 
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Затычка/React?Ts?</h3>
+                        <h3>Java Script, Type Script && React</h3>
                         <p>
-                            затыка
+                        I understand how to write beautiful and understandable code, breaking it into components thanks to react.
+                        I use Vite and Webpack to building the projects.
                         </p>
                     </div>
                 </li>
@@ -45,9 +46,9 @@ export default function  About() {
                     alt="ui icon" 
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Figma\Photoshop?</h3>
+                        <h3>Photoshop && Figma</h3>
                         <p>
-                            затычка
+                        I understand how to work with Photoshop and figma layouts.
                         </p>
                     </div>
                 </li>
